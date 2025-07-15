@@ -1,0 +1,28 @@
+{
+    "ar":{
+        "LOGIN":"تسجيل الدخول",
+        "EMAIL":"بريد إلكتروني",
+        "PASSWORD":"كلمة المرور",
+        "EVENT_SEARCH":"بحث عن الأحداث",
+        "EVENT_DETAILS":"تفاصيل الحدث",
+        "CITY_PULSE":"نبض المدينة",
+        "USER_PROFILE":"ملف تعريف المستخدم",
+        "FAVORITE_EVENTS":"الأحداث المفضلة",
+        "CITY":"مدينة",
+        "KEYWORD":"الكلمة الرئيسية",
+        "SEARCH":"يبحث"
+    },
+    "en":{
+        "LOGIN":"Login",
+        "EMAIL":"Email",
+        "EVENT_SEARCH":"Event Search",
+        "PASSWORD":"Password",
+        "EVENT_DETAILS":"Event Details",
+        "CITY_PULSE":"City Pulse",
+        "USER_PROFILE":"User Profile",
+        "FAVORITE_EVENTS":"Favorite Events",
+        "CITY":"City",
+        "KEYWORD":"Keyword",
+        "SEARCH":"Search"
+    }
+}

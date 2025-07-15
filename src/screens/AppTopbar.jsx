@@ -1,8 +1,7 @@
-import { locale, localeOption } from 'primereact/api';
+import {  localeOption } from 'primereact/api';
 import { InputSwitch } from 'primereact/inputswitch';
 import { useEffect, useState } from 'react';
 import { useFavorites } from '../shared/hooks/useFavorites';
-import { Avatar } from 'primereact/avatar';
 const AppTopbar = () => {
     const [checked, setChecked] = useState(true);
     const { layoutConfig } = useFavorites();

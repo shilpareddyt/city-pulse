@@ -58,7 +58,7 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen p-4 surface-100 flex justify-content-center align-items-center">
+    <div className=" p-4 flex justify-content-center align-items-center">
       <div className="w-full md:w-6 lg:w-4">
         <Card
           title={localeOption("EVENT_SEARCH") || "Search Events"}

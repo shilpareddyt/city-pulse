@@ -44,7 +44,7 @@ const Login = () => {
                 rules={{
                   required: 'Email is required',
                   pattern: {
-                    value: /^\S+@\S+$/i,
+                    value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
                     message: 'Invalid email format',
                   },
                 }}
@@ -72,7 +72,14 @@ const Login = () => {
               <Controller
                 name="password"
                 control={control}
-                rules={{ required: 'Password is required' }}
+                rules={{ required: 'Password is required' ,
+                  pattern: {
+                    value:
+                      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/,
+                    message:
+                      'Password must be at least 8 characters, include uppercase, lowercase, number, and special character',
+                  },
+                }}
                 render={({ field }) => (
                   <>
                     <Password

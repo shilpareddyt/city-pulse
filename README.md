@@ -14,22 +14,40 @@ In Event details table, please mark the favorite events and click on the Save Fa
 
 please find the screenshots below
 
-![alt text](image.png) login page in english
+login page in english
 
-![alt text](image-1.png) login page in arabic
+![alt text](public/screenshots/image.png) 
 
-![alt text](image-2.png) home screen in english
+login page in arabic
 
-![alt text](image-3.png) home screen in arabic
+![alt text](public/screenshots/image-1.png) 
 
-![alt text](image-4.png) Event details page in english
+home screen in english
 
-![alt text](image-5.png) Event details page in arabic
+![alt text](public/screenshots/image-2.png) 
 
-![alt text](image-6.png) Please click on the Save favorites, it saves and takes to Profile page
+home screen in arabic
 
-![alt text](image-7.png) Profile page in english
+![alt text](public/screenshots/image-3.png) 
 
-![alt text](image-8.png) Profile page in arabic
+Event details page in english
+
+![alt text](public/screenshots/image-4.png) 
+
+Event details page in arabic
+
+![alt text](public/screenshots/image-5.png) 
+
+Please click on the Save favorites, it saves and takes to Profile page
+
+![alt text](public/screenshots/image-6.png) 
+
+Profile page in english
+
+![alt text](public/screenshots/image-7.png) 
+
+ Profile page in arabic
+
+![alt text](public/screenshots/image-8.png)
 
 

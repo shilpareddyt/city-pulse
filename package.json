@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/shilpareddyt/city-pulse",
+  "homepage": "https://shilpareddyt.github.io/city-pulse",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -16,7 +16,6 @@ please find the screenshots below
 
 ![alt text](image.png) login page in english
 
-
 ![alt text](image-1.png) login page in arabic
 
 ![alt text](image-2.png) home screen in english

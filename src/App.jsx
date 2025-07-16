@@ -10,14 +10,9 @@ import 'primereact/resources/themes/lara-light-blue/theme.css';  // Theme
 import 'primereact/resources/primereact.min.css';               // Core CSS
 import 'primeicons/primeicons.css';                              // Icons
 import 'primeflex/primeflex.css';
-import { locale,addLocale, PrimeReactProvider } from "primereact/api";
+import { locale,addLocale } from "primereact/api";
 import * as locales from "./shared/locale.json";
 function App() {
- const pt={
-  inputSwitch:{
-    input:{className:"bg-primary"}
-  }
- }
    addLocale("en",locales["en"]);
   useEffect(()=>{
     locale('en');
@@ -25,7 +20,6 @@ function App() {
   },[])
 
   return (
-    <PrimeReactProvider value={{pt}}>
     <FavoritesProvider>
      <div className="app-topbar"><AppTopbar /></div> 
       <Router>
@@ -37,7 +31,6 @@ function App() {
         </Routes>
       </Router>
     </FavoritesProvider>
-    </PrimeReactProvider>
   );
 }
 
